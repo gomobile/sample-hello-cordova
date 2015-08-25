@@ -32,6 +32,5 @@
     "landscape" : false,
     "appName" : "demo.hellocordova",
     "appPreview" : false,
-    "sample" : true,
     "mobile" : false
 }
