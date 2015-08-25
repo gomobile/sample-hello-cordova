@@ -1,288 +1,490 @@
 {
-  "project": {
-    "projectSettingsVersion": "1.2",
-    "creationData": {
-      "type": "Import",
-      "src": "",
-      "projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1438477531034,
-      "creationDate": 1394663301756,
-      "projectTypeName": "com.intel.xdk.projecttype.jsapp"
-    },
-    "sourceDirectory": "www",
-    "startFile": "index.html",
-    "projectFiles": {},
-    "projectDirectories": {
-      "xdk/services/iodocs": {
-        "settings": {
-          "project": {
-            "XDK-generated": "true"
-          }
-        }
-      }
-    },
-    "libraries": [],
-    "servicesUglifyGeneratedCode": false,
-    "cordovaPluginsDirectory": "plugins",
-    "cordovaPlugins": [
-      {
-        "id": "org.apache.cordova.device-motion",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.device-orientation",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.device",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.geolocation",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.media",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.vibration",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.inappbrowser",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.splashscreen",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.dialogs",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.file",
-        "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      }
-    ],
-    "serviceMethods": [],
-    "buildConfigurations": {
-      "Android-Crosswalk": {
-        "platform_": "android",
-        "runtime_": "Crosswalk with Cordova 3.x",
-        "name_": "Android-Crosswalk",
-        "preferences_": {
-          "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
-          "android-installLocation": "auto",
-          "Orientation": "portrait",
-          "android-signed": true
+    "project": {
+        "projectSettingsVersion": "2.0.0",
+        "creationData": {
+            "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+            "src": "jsapp/sample-hello-cordova/sample.zip",
+            "projectGuid": "00000000-0000-0000-0000-000000000000",
+            "lastModifiedDate": 1440320693362,
+            "creationDate": 1440320612698
         },
-        "isActive_": true,
-        "appName_": "Hello, Crosswalk",
-        "appID_": "com.intel.xdk.hellocordova.crosswalk",
-        "appAccess_": [],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
-        "appVersion_": "15.8.9",
-        "appDescription_": "Cordova demonstration app.",
-        "appAuthor_": "Paul Fischer, Intel Corporation",
-        "appVersionCode_": "150809"
-      },
-      "Android": {
-        "platform_": "android",
-        "runtime_": "Cordova 3.x",
-        "name_": "Android",
-        "preferences_": {
-          "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
-          "Orientation": "portrait",
-          "android-installLocation": "auto",
-          "Fullscreen": false
+        "sourceDirectory": "www",
+        "startFile": "index.html",
+        "projectFiles": {},
+        "projectDirectories": {
+            "xdk/services/iodocs": {
+                "settings": {
+                    "project": {
+                        "XDK-generated": "true"
+                    }
+                }
+            }
         },
-        "isActive_": true,
-        "appName_": "Hello, Cordova",
-        "appID_": "com.intel.xdk.hellocordova",
-        "appAccess_": [],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
-        "appVersion_": "15.8.9",
-        "appDescription_": "Cordova demonstration app.",
-        "appAuthor_": "Paul Fischer, Intel Corporation",
-        "appVersionCode_": "150809"
-      },
-      "iOS": {
-        "platform_": "ios",
-        "runtime_": "Cordova 3.x",
-        "name_": "iOS",
-        "preferences_": {
-          "ios-target": "6",
-          "exit-on-suspend": false,
-          "ios-configuration": "adhoc",
-          "Orientation": "portrait"
+        "libraries": [],
+        "servicesUglifyGeneratedCode": false,
+        "cordovaPluginsDirectory": "plugins",
+        "cordovaPlugins": [
+            {
+                "id": "cordova-plugin-device-motion",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-device-motion",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "Device Motion",
+                "description": "Cordova Device Motion Plugin"
+            },
+            {
+                "id": "cordova-plugin-device-orientation",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-device-orientation",
+                "permissions": {
+                    "android:name": [
+                        "android.permission.ACCESS_COARSE_LOCATION",
+                        "android.permission.ACCESS_FINE_LOCATION"
+                    ]
+                },
+                "topLevel": true,
+                "gitref": "",
+                "name": "Device Orientation",
+                "description": "Cordova Device Orientation Plugin"
+            },
+            {
+                "id": "cordova-plugin-device",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-device",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "Device",
+                "description": "Cordova Device Plugin"
+            },
+            {
+                "id": "cordova-plugin-geolocation",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-geolocation",
+                "permissions": {
+                    "android:name": [
+                        "android.permission.ACCESS_COARSE_LOCATION",
+                        "android.permission.ACCESS_FINE_LOCATION"
+                    ]
+                },
+                "topLevel": true,
+                "gitref": "",
+                "name": "Geolocation",
+                "description": "Cordova Geolocation Plugin"
+            },
+            {
+                "id": "cordova-plugin-media",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [
+                    "cordova-plugin-file"
+                ],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-media",
+                "permissions": {
+                    "android:name": [
+                        "android.permission.RECORD_AUDIO",
+                        "android.permission.MODIFY_AUDIO_SETTINGS",
+                        "android.permission.WRITE_EXTERNAL_STORAGE",
+                        "android.permission.READ_PHONE_STATE"
+                    ]
+                },
+                "topLevel": true,
+                "gitref": "",
+                "name": "Media",
+                "cordovaVersion": ">=3.1.0",
+                "description": "Cordova Media Plugin"
+            },
+            {
+                "id": "cordova-plugin-vibration",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-vibration",
+                "permissions": {
+                    "android:name": [
+                        "android.permission.VIBRATE"
+                    ]
+                },
+                "topLevel": true,
+                "gitref": "",
+                "name": "Vibration",
+                "cordovaVersion": ">=3.1.0",
+                "description": "Cordova Vibration Plugin"
+            },
+            {
+                "id": "cordova-plugin-inappbrowser",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-inappbrowser",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "InAppBrowser",
+                "cordovaVersion": ">=3.1.0",
+                "description": "Cordova InAppBrowser Plugin"
+            },
+            {
+                "id": "cordova-plugin-splashscreen",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-splashscreen",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "Splashscreen",
+                "cordovaVersion": ">=3.1.0",
+                "description": "Cordova Splashscreen Plugin"
+            },
+            {
+                "id": "cordova-plugin-dialogs",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-dialogs",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "Notification",
+                "description": "Cordova Notification Plugin"
+            },
+            {
+                "id": "cordova-plugin-file",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [
+                    "cordova-plugin-media"
+                ],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-file",
+                "permissions": {
+                    "android:name": [
+                        "android.permission.WRITE_EXTERNAL_STORAGE"
+                    ]
+                },
+                "topLevel": false,
+                "gitref": "",
+                "name": "File",
+                "description": "Cordova File Plugin"
+            }
+        ],
+        "serviceMethods": [],
+        "buildConfigurations": {
+            "Android-Crosswalk": {
+                "platform_": "android",
+                "runtime_": "Crosswalk with Cordova 3.x",
+                "name_": "Android-Crosswalk",
+                "preferences_": {
+                    "android-minSdkVersion": "14",
+                    "android-targetSdkVersion": "19",
+                    "android-installLocation": "auto",
+                    "Orientation": "portrait",
+                    "android-signed": true
+                },
+                "isActive_": true,
+                "appName_": "HelloCordova",
+                "appID_": "com.intel.xdk.hellocordova.crosswalk",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "cordovaCLIVersion_": "?",
+                "crosswalkVersion_": "?",
+                "appVersion_": "15.8.9",
+                "appDescription_": "Cordova demonstration app.",
+                "appAuthor_": "Intel XDK",
+                "appVersionCode_": "150809"
+            },
+            "Android": {
+                "platform_": "android",
+                "runtime_": "Cordova 3.x",
+                "name_": "Android",
+                "preferences_": {
+                    "android-minSdkVersion": "14",
+                    "android-targetSdkVersion": "19",
+                    "Orientation": "portrait",
+                    "android-installLocation": "auto",
+                    "Fullscreen": false
+                },
+                "isActive_": true,
+                "appName_": "HelloCordova",
+                "appID_": "com.intel.xdk.hellocordova",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "cordovaCLIVersion_": "?",
+                "crosswalkVersion_": "?",
+                "appVersion_": "15.8.9",
+                "appDescription_": "Cordova demonstration app.",
+                "appAuthor_": "Intel XDK",
+                "appVersionCode_": "150809"
+            },
+            "iOS": {
+                "platform_": "ios",
+                "runtime_": "Cordova 3.x",
+                "name_": "iOS",
+                "preferences_": {
+                    "ios-target": "6",
+                    "exit-on-suspend": false,
+                    "ios-configuration": "adhoc",
+                    "Orientation": "portrait"
+                },
+                "isActive_": true,
+                "appName_": "HelloCordova",
+                "appID_": "com.intel.xdk.hellocordova",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "iosProvs_": [],
+                "cordovaCLIVersion_": "?",
+                "crosswalkVersion_": "?",
+                "appVersion_": "15.8.9",
+                "appDescription_": "Cordova demonstration app.",
+                "appAuthor_": "Intel XDK",
+                "appVersionCode_": "150809"
+            },
+            "Windows8": {
+                "platform_": "windows8",
+                "runtime_": "Cordova 3.x",
+                "name_": "Windows8",
+                "preferences_": {
+                    "Orientation": "portrait"
+                },
+                "isActive_": true,
+                "appName_": "HelloCordova",
+                "appID_": "com.intel.xdk.hellocordova",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "cordovaCLIVersion_": "?",
+                "crosswalkVersion_": "?",
+                "appVersion_": "15.8.9",
+                "appDescription_": "Cordova demonstration app.",
+                "appAuthor_": "Intel XDK"
+            },
+            "WebApp": {
+                "platform_": "webapp",
+                "runtime_": "W3C",
+                "name_": "WebApp",
+                "preferences_": {},
+                "isActive_": false,
+                "appName_": "HelloCordova",
+                "appID_": "com.intel.xdk.hellocordova",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "appVersion_": "15.8.9",
+                "appAuthor_": "Intel XDK"
+            },
+            "Firefox": {
+                "platform_": "firefoxos",
+                "runtime_": "W3C on Firefox OS",
+                "name_": "Firefox",
+                "preferences_": {},
+                "isActive_": false,
+                "appName_": "HelloCordova",
+                "appID_": "com.intel.xdk.hellocordova",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "appVersion_": "15.8.9",
+                "appAuthor_": "Intel XDK"
+            },
+            "Chrome": {
+                "platform_": "chromeos",
+                "runtime_": "W3C on Chrome OS",
+                "name_": "Chrome",
+                "preferences_": {},
+                "isActive_": false,
+                "appName_": "HelloCordova",
+                "appID_": "com.intel.xdk.hellocordova",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "appVersion_": "15.8.9",
+                "appAuthor_": "Intel XDK"
+            },
+            "Facebook": {
+                "platform_": "facebook",
+                "runtime_": "W3C on Facebook",
+                "name_": "Facebook",
+                "preferences_": {},
+                "isActive_": false,
+                "appName_": "HelloCordova",
+                "appID_": "com.intel.xdk.hellocordova",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "appVersion_": "15.8.9",
+                "appAuthor_": "Intel XDK"
+            },
+            "WP81": {
+                "platform_": "wp81",
+                "runtime_": "Cordova 3.x",
+                "name_": "WP81",
+                "preferences_": {},
+                "isActive_": true,
+                "appName_": "HelloCordova",
+                "appID_": "not.yet.specified",
+                "appAccess_": {
+                  "mode": "legacy",
+                  "network": [
+                    "http://debug-software.intel.com/*"
+                  ],
+                  "intents": [
+                    "geo:*"
+                  ],
+                  "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "appVersion_": "0.0.0.1",
+                "cordovaCLIVersion_": "?",
+                "appAuthor_": "Intel XDK"
+            }
         },
-        "isActive_": true,
-        "appName_": "Hello, Cordova",
-        "appID_": "com.intel.xdk.hellocordova",
-        "appAccess_": [],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
-        "appVersion_": "15.8.9",
-        "appDescription_": "Cordova demonstration app.",
-        "appAuthor_": "Paul Fischer, Intel Corporation",
-        "appVersionCode_": "150809"
-      },
-      "Windows8": {
-        "platform_": "windows8",
-        "runtime_": "Cordova 3.x",
-        "name_": "Windows8",
-        "preferences_": {
-          "Orientation": "portrait"
-        },
-        "isActive_": true,
-        "appName_": "Hello, Cordova",
-        "appID_": "com.intel.xdk.hellocordova",
-        "appAccess_": [],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
-        "appVersion_": "15.8.9",
-        "appDescription_": "Cordova demonstration app.",
-        "appAuthor_": "Paul Fischer, Intel Corporation"
-      },
-      "WebApp": {
-        "platform_": "webapp",
-        "runtime_": "W3C",
-        "name_": "WebApp",
-        "preferences_": {},
-        "isActive_": false,
-        "appName_": "Hello, Cordova",
-        "appID_": "com.intel.xdk.hellocordova",
-        "appAccess_": [],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "appVersion_": "15.8.9"
-      },
-      "Firefox": {
-        "platform_": "firefoxos",
-        "runtime_": "W3C on Firefox OS",
-        "name_": "Firefox",
-        "preferences_": {},
-        "isActive_": false,
-        "appName_": "Hello, Cordova",
-        "appID_": "com.intel.xdk.hellocordova",
-        "appAccess_": [],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "appVersion_": "15.8.9"
-      },
-      "Chrome": {
-        "platform_": "chromeos",
-        "runtime_": "W3C on Chrome OS",
-        "name_": "Chrome",
-        "preferences_": {},
-        "isActive_": false,
-        "appName_": "Hello, Cordova",
-        "appID_": "com.intel.xdk.hellocordova",
-        "appAccess_": [],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "appVersion_": "15.8.9"
-      },
-      "Facebook": {
-        "platform_": "facebook",
-        "runtime_": "W3C on Facebook",
-        "name_": "Facebook",
-        "preferences_": {},
-        "isActive_": false,
-        "appName_": "Hello, Cordova",
-        "appID_": "com.intel.xdk.hellocordova",
-        "appAccess_": [],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "appVersion_": "15.8.9"
-      }
-    },
-    "gameAssetDirectory": "asset",
-    "gameMetadata": {},
-    "projectTags": []
-  }
+        "gameAssetDirectory": "asset",
+        "gameMetadata": {},
+        "projectTags": [],
+        "testDirectory": "test"
+    }
 }
