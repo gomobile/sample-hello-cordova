@@ -5,7 +5,7 @@
             "projectTypeName": "com.intel.xdk.projecttype.jsapp",
             "src": "jsapp/sample-hello-cordova/sample.zip",
             "projectGuid": "00000000-0000-0000-0000-000000000000",
-            "lastModifiedDate": 1440320693362,
+            "lastModifiedDate": 1440728487385,
             "creationDate": 1440320612698
         },
         "sourceDirectory": "www",
@@ -121,7 +121,6 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "Media",
-                "cordovaVersion": ">=3.1.0",
                 "description": "Cordova Media Plugin"
             },
             {
@@ -142,7 +141,6 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "Vibration",
-                "cordovaVersion": ">=3.1.0",
                 "description": "Cordova Vibration Plugin"
             },
             {
@@ -159,7 +157,6 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "InAppBrowser",
-                "cordovaVersion": ">=3.1.0",
                 "description": "Cordova InAppBrowser Plugin"
             },
             {
@@ -176,7 +173,6 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "Splashscreen",
-                "cordovaVersion": ">=3.1.0",
                 "description": "Cordova Splashscreen Plugin"
             },
             {
@@ -216,6 +212,22 @@
                 "gitref": "",
                 "name": "File",
                 "description": "Cordova File Plugin"
+            },
+            {
+                "id": "cordova-plugin-statusbar",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-statusbar",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "StatusBar",
+                "description": "Cordova StatusBar Plugin"
             }
         ],
         "serviceMethods": [],
@@ -250,10 +262,10 @@
                 "excludedLibraries_": "",
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
-                "appVersion_": "15.8.9",
+        "appVersion_": "15.8.27",
                 "appDescription_": "Cordova demonstration app.",
                 "appAuthor_": "Intel XDK",
-                "appVersionCode_": "150809"
+        "appVersionCode_": "150827"
             },
             "Android": {
                 "platform_": "android",
@@ -285,10 +297,10 @@
                 "excludedLibraries_": "",
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
-                "appVersion_": "15.8.9",
+        "appVersion_": "15.8.27",
                 "appDescription_": "Cordova demonstration app.",
                 "appAuthor_": "Intel XDK",
-                "appVersionCode_": "150809"
+        "appVersionCode_": "150827"
             },
             "iOS": {
                 "platform_": "ios",
@@ -320,10 +332,10 @@
                 "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
-                "appVersion_": "15.8.9",
+        "appVersion_": "15.8.27",
                 "appDescription_": "Cordova demonstration app.",
                 "appAuthor_": "Intel XDK",
-                "appVersionCode_": "150809"
+        "appVersionCode_": "150827"
             },
             "Windows8": {
                 "platform_": "windows8",
@@ -351,7 +363,7 @@
                 "excludedLibraries_": "",
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
-                "appVersion_": "15.8.9",
+        "appVersion_": "15.8.27",
                 "appDescription_": "Cordova demonstration app.",
                 "appAuthor_": "Intel XDK"
             },
