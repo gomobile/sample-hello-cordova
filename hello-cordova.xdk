@@ -25,6 +25,23 @@
         "cordovaPluginsDirectory": "plugins",
         "cordovaPlugins": [
             {
+                "id": "org.apache.cordova.statusbar",
+                "name": "StatusBar",
+                "version": "?",
+                "originType": "cordova.io",
+                "origin": "org.apache.cordova.statusbar",
+                "gitref": "",
+                "paramvals": {},
+                "selectedState": "Included",
+                "dependsOn": [],
+                "topLevel": true,
+                "cordovaVersion": "?",
+                "permissions": {},
+                "description": "Cordova StatusBar Plugin",
+                "data": {},
+                "dependedBy": []
+             },
+            {
                 "id": "cordova-plugin-device-motion",
                 "version": "?",
                 "selectedState": "Included",
@@ -50,12 +67,7 @@
                 "dependedBy": [],
                 "originType": "cordova.io",
                 "origin": "cordova-plugin-device-orientation",
-                "permissions": {
-                    "android:name": [
-                        "android.permission.ACCESS_COARSE_LOCATION",
-                        "android.permission.ACCESS_FINE_LOCATION"
-                    ]
-                },
+                "permissions": {},
                 "topLevel": true,
                 "gitref": "",
                 "name": "Device Orientation",
@@ -87,12 +99,7 @@
                 "dependedBy": [],
                 "originType": "cordova.io",
                 "origin": "cordova-plugin-geolocation",
-                "permissions": {
-                    "android:name": [
-                        "android.permission.ACCESS_COARSE_LOCATION",
-                        "android.permission.ACCESS_FINE_LOCATION"
-                    ]
-                },
+                "permissions": {},
                 "topLevel": true,
                 "gitref": "",
                 "name": "Geolocation",
@@ -110,18 +117,11 @@
                 "dependedBy": [],
                 "originType": "cordova.io",
                 "origin": "cordova-plugin-media",
-                "permissions": {
-                    "android:name": [
-                        "android.permission.RECORD_AUDIO",
-                        "android.permission.MODIFY_AUDIO_SETTINGS",
-                        "android.permission.WRITE_EXTERNAL_STORAGE",
-                        "android.permission.READ_PHONE_STATE"
-                    ]
-                },
+                "permissions": {},
                 "topLevel": true,
                 "gitref": "",
                 "name": "Media",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova Media Plugin"
             },
             {
@@ -134,15 +134,11 @@
                 "dependedBy": [],
                 "originType": "cordova.io",
                 "origin": "cordova-plugin-vibration",
-                "permissions": {
-                    "android:name": [
-                        "android.permission.VIBRATE"
-                    ]
-                },
+                "permissions": {},
                 "topLevel": true,
                 "gitref": "",
                 "name": "Vibration",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova Vibration Plugin"
             },
             {
@@ -159,7 +155,7 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "InAppBrowser",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova InAppBrowser Plugin"
             },
             {
@@ -176,7 +172,7 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "Splashscreen",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova Splashscreen Plugin"
             },
             {
@@ -207,11 +203,7 @@
                 ],
                 "originType": "cordova.io",
                 "origin": "cordova-plugin-file",
-                "permissions": {
-                    "android:name": [
-                        "android.permission.WRITE_EXTERNAL_STORAGE"
-                    ]
-                },
+                "permissions": {},
                 "topLevel": false,
                 "gitref": "",
                 "name": "File",
@@ -235,14 +227,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "com.intel.xdk.hellocordova.crosswalk",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -270,14 +262,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "com.intel.xdk.hellocordova",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -304,14 +296,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "com.intel.xdk.hellocordova",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -336,14 +328,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "com.intel.xdk.hellocordova",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -364,14 +356,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "com.intel.xdk.hellocordova",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -389,14 +381,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "com.intel.xdk.hellocordova",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -414,14 +406,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "com.intel.xdk.hellocordova",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -439,14 +431,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "com.intel.xdk.hellocordova",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -464,14 +456,14 @@
                 "appName_": "HelloCordova",
                 "appID_": "not.yet.specified",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*"
-                  ],
-                  "intents": [
-                    "geo:*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [
+                        "geo:*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
