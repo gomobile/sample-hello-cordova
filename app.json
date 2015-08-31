@@ -8,6 +8,7 @@
     "section" : "samples",
     "group" : "",
     "visible" : true,
+    "samples" : true,
     "keywords" : [
         "Accelerometer",
         "Compass",
