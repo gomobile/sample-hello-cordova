@@ -258,10 +258,10 @@
                 "excludedLibraries_": "",
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
-        "appVersion_": "15.8.27",
+                "appVersion_": "15.8.27",
                 "appDescription_": "Cordova demonstration app.",
                 "appAuthor_": "Intel XDK",
-        "appVersionCode_": "150827"
+                "appVersionCode_": "150827"
             },
             "Android": {
                 "platform_": "android",
@@ -293,10 +293,10 @@
                 "excludedLibraries_": "",
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
-        "appVersion_": "15.8.27",
+                "appVersion_": "15.8.27",
                 "appDescription_": "Cordova demonstration app.",
                 "appAuthor_": "Intel XDK",
-        "appVersionCode_": "150827"
+                "appVersionCode_": "150827"
             },
             "iOS": {
                 "platform_": "ios",
@@ -328,10 +328,10 @@
                 "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
-        "appVersion_": "15.8.27",
+                "appVersion_": "15.8.27",
                 "appDescription_": "Cordova demonstration app.",
                 "appAuthor_": "Intel XDK",
-        "appVersionCode_": "150827"
+                "appVersionCode_": "150827"
             },
             "Windows8": {
                 "platform_": "windows8",
@@ -359,7 +359,7 @@
                 "excludedLibraries_": "",
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
-        "appVersion_": "15.8.27",
+                "appVersion_": "15.8.27",
                 "appDescription_": "Cordova demonstration app.",
                 "appAuthor_": "Intel XDK"
             },
