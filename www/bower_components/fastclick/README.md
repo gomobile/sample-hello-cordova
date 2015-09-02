@@ -29,7 +29,11 @@ The library has been deployed as part of the [FT Web App](http://app.ft.com/) an
 
 ## When it isn't needed ##
 
-FastClick doesn't attach any listeners on desktop browsers or Chrome on Android with `user-scalable=no` in the [viewport meta tag](https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag) as it is not needed. You should add this tag if you want to disable double-tap-to-zoom entirely.
+FastClick doesn't attach any listeners on desktop browsers.
+
+Chrome 32+ on Android with `width=device-width` in the [viewport meta tag](https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag) doesn't have a 300ms delay, therefore listeners aren't attached.
+
+Same goes for Chrome on Android (all versions) with `user-scalable=no` in the viewport meta tag. But be aware that `user-scalable=no` also disables pinch zooming, which may be an accessibility concern.
 
 ```html
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
@@ -39,7 +43,7 @@ For IE10, you can use `-ms-touch-action: none` to disable double-tap-to-zoom on 
 
 ```css
 a, input, button {
-    -ms-touch-action: none !important;
+	-ms-touch-action: none !important;
 }
 ```
 
@@ -59,7 +63,7 @@ To instantiate FastClick on the `body`, which is the recommended method of use:
 
 ```js
 window.addEventListener('load', function() {
-    FastClick.attach(document.body);
+	FastClick.attach(document.body);
 }, false);
 ```
 
@@ -69,7 +73,7 @@ Otherwise, if you're using jQuery:
 
 ```js
 $(function() {
-    FastClick.attach(document.body);
+	FastClick.attach(document.body);
 });
 ```
 
