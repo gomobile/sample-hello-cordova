@@ -10,7 +10,7 @@
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
 </platform>
 
 <platform name="ios">
@@ -32,6 +32,8 @@
 <!-- use this feature to add command-lines to be used by Crosswalk builds on device -->
 <!-- see http://peter.sh/experiments/chromium-command-line-switches/ for complete list -->
 <intelxdk:crosswalk xwalk-command-line="--disable-pull-to-refresh-effect" />
+<!-- ignore gpu blacklist for larger collection of gpu accelerated devices -->
+<intelxdk:crosswalk xwalk-command-line="--ignore-gpu-blacklist" />
 
 <!-- alternate way to add icons to Cordova builds, rather than using XDK GUI -->
 <!-- especially for adding icon resolutions that are not covered by the XDK GUI -->
