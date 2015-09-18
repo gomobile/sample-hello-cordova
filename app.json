@@ -32,6 +32,6 @@
     "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
     "landscape" : false,
     "appName" : "demo.hellocordova",
-    "appPreview" : false,
+    "appPreview" : true,
     "mobile" : false
 }
