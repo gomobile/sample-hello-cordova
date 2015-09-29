@@ -208,22 +208,6 @@
                 "gitref": "",
                 "name": "File",
                 "description": "Cordova File Plugin"
-            },
-            {
-                "id": "cordova-plugin-statusbar",
-                "version": "?",
-                "selectedState": "Included",
-                "data": {},
-                "paramvals": {},
-                "dependsOn": [],
-                "dependedBy": [],
-                "originType": "cordova.io",
-                "origin": "cordova-plugin-statusbar",
-                "permissions": {},
-                "topLevel": true,
-                "gitref": "",
-                "name": "StatusBar",
-                "description": "Cordova StatusBar Plugin"
             }
         ],
         "serviceMethods": [],
