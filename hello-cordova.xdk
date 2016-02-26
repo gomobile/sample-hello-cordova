@@ -40,7 +40,7 @@
                 "description": "Cordova StatusBar Plugin",
                 "data": {},
                 "dependedBy": []
-             },
+            },
             {
                 "id": "cordova-plugin-device-motion",
                 "version": "?",
@@ -212,52 +212,16 @@
         ],
         "serviceMethods": [],
         "buildConfigurations": {
-            "Android-Crosswalk": {
+            "Android": {
                 "platform_": "android",
                 "runtime_": "Crosswalk with Cordova 3.x",
                 "name_": "Android-Crosswalk",
                 "preferences_": {
                     "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "19",
+                    "android-targetSdkVersion": "23",
                     "android-installLocation": "auto",
                     "Orientation": "portrait",
                     "android-signed": true
-                },
-                "isActive_": true,
-                "appName_": "HelloCordova",
-                "appID_": "com.intel.xdk.hellocordova.crosswalk",
-                "appAccess_": {
-                    "mode": "legacy",
-                    "network": [
-                        "http://debug-software.intel.com/*", 
-                        "https://debug-software.intel.com/*"
-                    ],
-                    "intents": [
-                        "geo:*"
-                    ],
-                    "navigation": []
-                },
-                "icons_": [],
-                "splashes_": [],
-                "addlPermissions_": "",
-                "excludedLibraries_": "",
-                "cordovaCLIVersion_": "?",
-                "crosswalkVersion_": "?",
-                "appVersion_": "15.8.27",
-                "appDescription_": "Cordova demonstration app.",
-                "appAuthor_": "Intel XDK",
-                "appVersionCode_": "150827"
-            },
-            "Android": {
-                "platform_": "android",
-                "runtime_": "Cordova 3.x",
-                "name_": "Android",
-                "preferences_": {
-                    "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "19",
-                    "Orientation": "portrait",
-                    "android-installLocation": "auto",
-                    "Fullscreen": false
                 },
                 "isActive_": true,
                 "appName_": "HelloCordova",
@@ -265,7 +229,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [
@@ -289,7 +253,7 @@
                 "runtime_": "Cordova 3.x",
                 "name_": "iOS",
                 "preferences_": {
-                    "ios-target": "6",
+                    "ios-target": "8.0",
                     "exit-on-suspend": false,
                     "ios-configuration": "adhoc",
                     "Orientation": "portrait"
@@ -300,7 +264,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [
@@ -333,7 +297,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [
@@ -362,7 +326,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [
@@ -388,7 +352,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [
@@ -414,7 +378,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [
@@ -440,7 +404,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [
@@ -466,7 +430,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [
