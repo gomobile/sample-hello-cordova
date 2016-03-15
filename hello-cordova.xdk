@@ -237,8 +237,62 @@
                     ],
                     "navigation": []
                 },
-                "icons_": [],
-                "splashes_": [],
+                "icons_": [
+                  {
+                    "relPath": "assets/android/icon-ldpi.png",
+                    "density": "ldpi",
+                    "height": 36,
+                    "width": 36
+                  },
+                  {
+                    "relPath": "assets/android/icon-mdpi.png",
+                    "density": "mdpi",
+                    "height": 48,
+                    "width": 48
+                  },
+                  {
+                    "relPath": "assets/android/icon-hdpi.png",
+                    "density": "hdpi",
+                    "height": 72,
+                    "width": 72
+                  },
+                  {
+                    "relPath": "assets/android/icon-xhdpi.png",
+                    "density": "xhdpi",
+                    "height": 96,
+                    "width": 96
+                  }
+                ],
+                "splashes_": [
+                  {
+                    "relPath": "assets/android/splash-320x426.9.png",
+                    "density": "ldpi",
+                    "height": 426,
+                    "width": 320,
+                    "orientation": "portrait"
+                  },
+                  {
+                    "relPath": "assets/android/splash-320x470.9.png",
+                    "density": "mdpi",
+                    "height": 470,
+                    "width": 320,
+                    "orientation": "portrait"
+                  },
+                  {
+                    "relPath": "assets/android/splash-480x640.9.png",
+                    "density": "hdpi",
+                    "height": 640,
+                    "width": 480,
+                    "orientation": "portrait"
+                  },
+                  {
+                    "relPath": "assets/android/splash-720x960.9.png",
+                    "density": "xhdpi",
+                    "height": 960,
+                    "width": 720,
+                    "orientation": "portrait"
+                  }
+                ],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
                 "cordovaCLIVersion_": "?",
@@ -272,7 +326,88 @@
                     ],
                     "navigation": []
                 },
-                "icons_": [],
+                "icons_": [
+                  {
+                    "relPath": "assets/ios/icon-small.png",
+                    "height": 29,
+                    "width": 29
+                  },
+                  {
+                    "relPath": "assets/ios/icon-small@2x.png",
+                    "height": 58,
+                    "width": 58
+                  },
+                  {
+                    "relPath": "assets/ios/icon-small@3x.png",
+                    "height": 87,
+                    "width": 87
+                  },
+                  {
+                    "relPath": "assets/ios/icon-60.png",
+                    "height": 60,
+                    "width": 60
+                  },
+                  {
+                    "relPath": "assets/ios/icon-76.png",
+                    "height": 76,
+                    "width": 76
+                  },
+                  {
+                    "relPath": "assets/ios/icon-72@2x.png",
+                    "height": 144,
+                    "width": 144
+                  },
+                  {
+                    "relPath": "assets/ios/icon-40@2x.png",
+                    "height": 80,
+                    "width": 80
+                  },
+                  {
+                    "relPath": "assets/ios/icon-60@2x.png",
+                    "height": 120,
+                    "width": 120
+                  },
+                  {
+                    "relPath": "assets/ios/icon-60@3x.png",
+                    "height": 180,
+                    "width": 180
+                  },
+                  {
+                    "relPath": "assets/ios/icon-76@2x.png",
+                    "height": 152,
+                    "width": 152
+                  },
+                  {
+                    "relPath": "assets/ios/icon-40.png",
+                    "height": 40,
+                    "width": 40
+                  },
+                  {
+                    "relPath": "assets/ios/icon.png",
+                    "height": 57,
+                    "width": 57
+                  },
+                  {
+                    "relPath": "assets/ios/icon@2x.png",
+                    "height": 114,
+                    "width": 114
+                  },
+                  {
+                    "relPath": "assets/ios/icon-72.png",
+                    "height": 72,
+                    "width": 72
+                  },
+                  {
+                    "relPath": "assets/ios/icon-50.png",
+                    "height": 50,
+                    "width": 50
+                  },
+                  {
+                    "relPath": "assets/ios/icon-50@2x.png",
+                    "height": 100,
+                    "width": 100
+                  }
+                ],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
@@ -305,7 +440,23 @@
                     ],
                     "navigation": []
                 },
-                "icons_": [],
+                "icons_": [
+                  {
+                    "relPath": "assets/windows/logo-small.png",
+                    "height": 30,
+                    "width": 30
+                  },
+                  {
+                    "relPath": "assets/windows/logo-store.png",
+                    "height": 50,
+                    "width": 50
+                  },
+                  {
+                    "relPath": "assets/windows/logo.png",
+                    "height": 150,
+                    "width": 150
+                  }
+                ],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
