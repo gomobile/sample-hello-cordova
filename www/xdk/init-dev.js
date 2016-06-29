@@ -1,5 +1,5 @@
 /*
- * Copyright © 2012-2015, Intel Corporation. All rights reserved.
+ * Copyright © 2012-2015, Paul Fischer, Intel Corporation. All rights reserved.
  * Please see the included README.md file for license terms and conditions.
  */
 
