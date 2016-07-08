@@ -105,25 +105,25 @@
         "icons_": [
           {
             "density": "ldpi",
-            "src": "package-assets/android/icon-ldpi.png",
+            "relPath": "package-assets/android/icon-ldpi.png",
             "width": 36,
             "height": 36
           },
           {
             "density": "mdpi",
-            "src": "package-assets/android/icon-mdpi.png",
+            "relPath": "package-assets/android/icon-mdpi.png",
             "width": 48,
             "height": 48
           },
           {
             "density": "hdpi",
-            "src": "package-assets/android/icon-hdpi.png",
+            "relPath": "package-assets/android/icon-hdpi.png",
             "width": 72,
             "height": 72
           },
           {
             "density": "xhdpi",
-            "src": "package-assets/android/icon-xhdpi.png",
+            "relPath": "package-assets/android/icon-xhdpi.png",
             "width": 96,
             "height": 96
           }
@@ -194,87 +194,87 @@
         },
         "icons_": [
           {
-            "src": "package-assets/ios/icon-small.png",
+            "relPath": "package-assets/ios/icon-small.png",
             "width": 29,
             "height": 29
           },
           {
-            "src": "package-assets/ios/icon-small@2x.png",
+            "relPath": "package-assets/ios/icon-small@2x.png",
             "width": 58,
             "height": 58
           },
           {
-            "src": "package-assets/ios/icon-small@3x.png",
+            "relPath": "package-assets/ios/icon-small@3x.png",
             "width": 87,
             "height": 87
           },
           {
-            "src": "package-assets/ios/icon-60.png",
+            "relPath": "package-assets/ios/icon-60.png",
             "width": 60,
             "height": 60
           },
           {
-            "src": "package-assets/ios/icon-60@2x.png",
+            "relPath": "package-assets/ios/icon-60@2x.png",
             "width": 120,
             "height": 120
           },
           {
-            "src": "package-assets/ios/icon-60@3x.png",
+            "relPath": "package-assets/ios/icon-60@3x.png",
             "width": 180,
             "height": 180
           },
           {
-            "src": "package-assets/ios/icon-76.png",
+            "relPath": "package-assets/ios/icon-76.png",
             "width": 76,
             "height": 76
           },
           {
-            "src": "package-assets/ios/icon-76@2x.png",
+            "relPath": "package-assets/ios/icon-76@2x.png",
             "width": 152,
             "height": 152
           },
           {
-            "src": "package-assets/ios/icon-40.png",
+            "relPath": "package-assets/ios/icon-40.png",
             "width": 40,
             "height": 40
           },
           {
-            "src": "package-assets/ios/icon-40@2x.png",
+            "relPath": "package-assets/ios/icon-40@2x.png",
             "width": 80,
             "height": 80
           },
           {
-            "src": "package-assets/ios/icon.png",
+            "relPath": "package-assets/ios/icon.png",
             "width": 57,
             "height": 57
           },
           {
-            "src": "package-assets/ios/icon@2x.png",
+            "relPath": "package-assets/ios/icon@2x.png",
             "width": 114,
             "height": 114
           },
           {
-            "src": "package-assets/ios/icon-72.png",
+            "relPath": "package-assets/ios/icon-72.png",
             "width": 72,
             "height": 72
           },
           {
-            "src": "package-assets/ios/icon-72@2x.png",
+            "relPath": "package-assets/ios/icon-72@2x.png",
             "width": 144,
             "height": 144
           },
           {
-            "src": "package-assets/ios/icon-50.png",
+            "relPath": "package-assets/ios/icon-50.png",
             "width": 50,
             "height": 50
           },
           {
-            "src": "package-assets/ios/icon-50@2x.png",
+            "relPath": "package-assets/ios/icon-50@2x.png",
             "width": 100,
             "height": 100
           },
           {
-            "src": "package-assets/ios/icon-187.png",
+            "relPath": "package-assets/ios/icon-187.png",
             "width": 187,
             "height": 187
           }
@@ -357,17 +357,17 @@
         },
         "icons_": [
           {
-            "src": "package-assets/windows/logo-small.png",
+            "relPath": "package-assets/windows/logo-small.png",
             "width": 30,
             "height": 30
           },
           {
-            "src": "package-assets/windows/logo-store.png",
+            "relPath": "package-assets/windows/logo-store.png",
             "width": 50,
             "height": 50
           },
           {
-            "src": "package-assets/windows/logo.png",
+            "relPath": "package-assets/windows/logo.png",
             "width": 150,
             "height": 150
           }
