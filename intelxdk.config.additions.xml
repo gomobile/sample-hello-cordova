@@ -153,22 +153,6 @@
     <preference name="UIWebViewDecelerationSpeed" value="normal" />
 </platform>
 
-<platform name="wp8">
-    <!-- following requires the splash screen plugin -->
-    <!-- see https://github.com/apache/cordova-plugin-splashscreen for details -->
-    <preference name="SplashScreen" value="SplashScreenPhone" />
-    <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="3000" />
-    <preference name="SplashMaintainAspectRatio" value="false" />
-
-    <!-- following requires the status bar plugin -->
-    <!-- see https://github.com/apache/cordova-plugin-statusbar for details -->
-    <!-- see http://devgirl.org/2014/07/31/phonegap-developers-guid -->
-    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#000000" />
-    <preference name="StatusBarStyle" value="lightcontent" />
-</platform>
-
 <platform name="windows">
     <!-- following requires the splash screen plugin -->
     <!-- see https://github.com/apache/cordova-plugin-splashscreen for details -->
