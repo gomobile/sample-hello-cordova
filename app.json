@@ -4,7 +4,7 @@
   "sample" : true,
   "template" : false,
   "visible" : true,
-  "sortWeight" : "0.9",
+  "sortWeight" : "0.8",
   "repoName" : "sample-hello-cordova",
   "tooltip" : "Basics behind constructing a Cordova app with the Intel XDK",
   "description" : "Illustrates the use of some common core Cordova APIs and, where possible, the equivalent HTML5 APIs within a hybrid mobile HTML5 app.",
