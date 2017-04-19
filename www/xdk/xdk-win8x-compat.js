@@ -196,7 +196,7 @@ if( window.MSApp && MSApp.execUnsafeLocalFunction ) {   // only execute if on a 
 
 
 
-if( window.MSApp && !window.alert ) {    // only define in a Windows webview...
+if( window.MSApp ) {    // only define in a Windows webview...
 
 /*
  * Stack Exchange Inc User Contribution licensed under cc by-sa 3.0 with attribution required

@@ -19,6 +19,9 @@
 <!--<preference name="xwalkVersion" value="14.43.343.24" />-->
 <!--<preference name="xwalkVersion" value="org.xwalk:xwalk_core_library_beta:19+" />-->
 
+<!-- use following to perform a Crosswalk 64-bit build (include the 64-bit library) -->
+<!--<preference name="xwalk64bit" value="true" />-->
+
 <!-- Force a Windows Phone 8.0 (XAP) build when choosing Windows Phone 8.1 build option -->
 <!--<preference name="windows-target-version" value="8.0"/>-->
 
@@ -200,6 +203,9 @@
 </platform>
 
 <!-- iOS icons and splash screens -->
+<!-- https://developer.apple.com/ios/human-interface-guidelines/graphics/app-icon -->
+<!-- https://developer.apple.com/ios/human-interface-guidelines/graphics/launch-screen -->
+
 <platform name="ios">
     <!-- iPhone and iPod Touch App Icons -->
 <!--
@@ -215,6 +221,7 @@
     <icon src="package-assets/ios/icon-76.png" width="76" height="76" />
     <icon src="package-assets/ios/icon-72@2x.png" width="144" height="144" />
     <icon src="package-assets/ios/icon-76@2x.png" width="152" height="152" />
+    <icon src="package-assets/ios/icon-83.5@2x.png" width="167" height="167" />
 -->
     <icon src="package-assets/ios/icon-187.png" width="187" height="187" />
     <!-- Spotlight Icons -->
@@ -233,6 +240,7 @@
     <icon src="package-assets/ios/icon-50.png" width="50" height="50" />
     <icon src="package-assets/ios/icon-50@2x.png" width="100" height="100" />
 -->
+
     <!-- iPad Splash Screens -->
 <!--
     <splash src="package-assets/ios/default-portrait~ipad.png" width="768" height="1024"/>
@@ -256,14 +264,72 @@
 -->
 </platform>
 
-<!-- Windows icons and splash screens -->
-<!-- Guidelines for Windows 10 Universal App platforms -->
-<!-- https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/tiles-and-notifications-app-assets -->
+<!-- Guidelines for Windows 8.x and Windows Phone 8.1 platforms -->
+<!-- https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh781198.aspx -->
+
+<!-- Windows Phone 8.1 minimum icons and splash screens -->
 <platform name="windows">
 <!--
-    <icon src="package-assets/windows/logo.png" width="150" height="150" />
-    <icon src="package-assets/windows/logo-small.png" width="30" height="30" />
-    <icon src="package-assets/windows/logo-store.png" width="50" height="50" />
- -->
+    <icon src="package-assets/windows/Square44x44Logo.scale-240.png"   width="106" height="106"/>
+    <icon src="package-assets/windows/Store50x50Logo.scale-240.png"    width="120" height="120" />
+    <icon src="package-assets/windows/Square71x71Logo.scale-240.png"   width="170" height="170" />
+    <icon src="package-assets/windows/Square150x150Logo.scale-240.png" width="360" height="360" />
+    <icon src="package-assets/windows/Wide310x150Logo.scale-240.png"   width="744" height="360"/>
+    <splash src="package-assets/windows/SplashScreenImage480x800.scale-240.png" width="1152" height="1920" orientation="landscape"/>
+-->
+</platform>
+
+<!-- Windows 8.x minimum icons and splash screens -->
+<platform name="windows">
+<!--
+    <icon src="package-assets/windows/Square30x30Logo.scale-100.png"   width="30" height="30" />
+    <icon src="package-assets/windows/Store50x50Logo.scale-100.png"    width="50" height="50" />
+    <icon src="package-assets/windows/Square70x70Logo.scale-100.png"   width="70" height="70" />
+    <icon src="package-assets/windows/Square150x150Logo.scale-100.png" width="150" height="150" />
+    <icon src="package-assets/windows/Square310x310Logo.scale-100.png" width="310" height="310" />
+    <icon src="package-assets/windows/Wide310x150Logo.scale-100.png"   width="310" height="150" />
+    <splash src="package-assets/windows/SplashScreenImage620x300.scale-100.png" width="620" height="300"/>
+-->
+</platform>
+
+<!-- Windows 8.x additional recommended icons and splash screens -->
+<platform name="windows">
+<!--
+    <icon src="package-assets/windows/Square30x30Logo.scale-180.png"   width="54" height="54" />
+    <icon src="package-assets/windows/Store50x50Logo.scale-180.png"    width="90" height="90" />
+    <icon src="package-assets/windows/Square70x70Logo.scale-180.png"   width="126" height="126" />
+    <icon src="package-assets/windows/Square150x150Logo.scale-180.png" width="270" height="270" />
+    <icon src="package-assets/windows/Square310x310Logo.scale-180.png" width="558" height="558" />
+    <icon src="package-assets/windows/Wide310x150Logo.scale-180.png"   width="558" height="270" />
+    <splash src="package-assets/windows/SplashScreenImage620x300.scale-180.png" width="1116" height="540"/>
+-->
+</platform>
+
+<!-- Guidelines for Windows 10 Universal App platforms -->
+<!-- https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/tiles-and-notifications-app-assets -->
+
+<!-- Windows 10 Universal additional minimum icons and splash screens (added to above) -->
+<!-- Assumes Windows 8.x and Windows Phone 8.1 icons and splash screens are provided -->
+<platform name="windows">
+<!--
+    <icon src="package-assets/windows/Square44x44Logo.scale-100.png"   width="44" height="44"/>
+    <icon src="package-assets/windows/Square71x71Logo.scale-100.png"   width="71" height="71" />
+-->
+</platform>
+
+<!-- Windows 10 additional recommended icons and splash screens -->
+<platform name="windows">
+<!--
+    <icon src="package-assets/windows/Square44x44Logo.scale-200.png"   width="88" height="88"/>
+    <icon src="package-assets/windows/Square44x44Logo.scale-400.png"   width="176" height="176"/>
+    <icon src="package-assets/windows/Square71x71Logo.scale-200.png"   width="142" height="142" />
+    <icon src="package-assets/windows/Square71x71Logo.scale-400.png"   width="248" height="248" />
+    <icon src="package-assets/windows/Square150x150Logo.scale-200.png" width="300" height="300" />
+    <icon src="package-assets/windows/Square150x150Logo.scale-400.png" width="600" height="600" />
+    <icon src="package-assets/windows/Wide310x150Logo.scale-200.png"   width="620" height="300" />
+    <icon src="package-assets/windows/Wide310x150Logo.scale-400.png"   width="1240" height="600" />
+    <icon src="package-assets/windows/Square310x310Logo.scale-200.png" width="620" height="620" />
+    <icon src="package-assets/windows/Square310x310Logo.scale-400.png" width="1240" height="1240" />
+-->
 </platform>
 
