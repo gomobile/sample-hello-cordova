@@ -5,45 +5,19 @@
 <!-- https://cordova.apache.org/docs/en/5.4.0/guide/platforms/android/config.html -->
 <!-- https://cordova.apache.org/docs/en/5.4.0/guide/platforms/win8/index.html -->
 
-<!-- Set the debuggable preference to true to build a remote CDT debuggable Android app. -->
-<!-- Crosswalk apps on Android 4.0+ devices and Cordova apps on Android 4.4+ devices. -->
-<!-- Set the debuggable preference to false before you build for the store. -->
-<preference name="debuggable" value="true" />
-
-<!-- Set the Crosswalk embedded library to something other than those listed in the UI -->
-<!-- https://github.com/crosswalk-project/crosswalk-website/wiki/Release-dates -->
-<!-- https://download.01.org/crosswalk/releases/crosswalk/android/maven2/org/xwalk/xwalk_core_library/ -->
-<!-- https://download.01.org/crosswalk/releases/crosswalk/android/maven2/org/xwalk/xwalk_core_library_beta/ -->
-<!-- https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview#configure -->
-<!--<preference name="xwalkVersion" value="18+"/>-->
-<!--<preference name="xwalkVersion" value="14.43.343.24" />-->
-<!--<preference name="xwalkVersion" value="org.xwalk:xwalk_core_library_beta:19+" />-->
-
-<!-- use following to perform a Crosswalk 64-bit build (include the 64-bit library) -->
-<!--<preference name="xwalk64bit" value="true" />-->
-
 <!-- Force a Windows Phone 8.0 (XAP) build when choosing Windows Phone 8.1 build option -->
 <!--<preference name="windows-target-version" value="8.0"/>-->
 
-<!-- use this feature to add command-lines to be used by Crosswalk builds at runtime -->
+<!-- use this feature to add command-lines to be used by Crosswalk builds on device -->
 <!-- see http://peter.sh/experiments/chromium-command-line-switches/ for complete list -->
-<!-- ignore gpu blacklist for larger collection of gpu accelerated devices -->
-<intelxdk:crosswalk xwalk-command-line="--ignore-gpu-blacklist" />
+<preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect --ignore-gpu-blacklist" />
 
 <!-- Also worth trying for performance issues in Crosswalk: -->
+<!-- (Don't forget to prepend the above options with a double-dash when using!) -->
 <!-- enable-gpu-rasterization: respects blacklist -->
 <!-- force-gpu-rasterization: ignores gpu blacklist -->
 <!-- disable-gpu-rasterization: for comparing to gpu-enabled -->
-<!-- Don't forget to prepend the above options with a double-dash when using! -->
-
-<!-- Because XML parsers deal with double-dashes as a comment indicator: -->
-<!-- * you must remove the space between option dashes "- -" to uncomment an option -->
-<!-- * you must add a space between the option dashes "- -" to comment out an option -->
-<!-- For example: -->
-<!--<intelxdk:crosswalk xwalk-command-line="- -disable-pull-to-refresh-effect" />-->
-<!-- becomes -->
-<intelxdk:crosswalk xwalk-command-line="--disable-pull-to-refresh-effect" />
-<!--<intelxdk:crosswalk xwalk-command-line="- -show-fps-counter" />-->
+<!-- show-fps-counter: for displaying frames per second on app screen -->
 
 <!-- Configure Crosswalk-Android "SurfaceView" or "TextureView" option. -->
 <!-- https://github.com/crosswalk-project/crosswalk-website/wiki/Android-SurfaceView-vs-TextureView -->
@@ -332,4 +306,3 @@
     <icon src="package-assets/windows/Square310x310Logo.scale-400.png" width="1240" height="1240" />
 -->
 </platform>
-
